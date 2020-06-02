@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1772A2DD2486B604002C30A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772A2DC2486B604002C30A7 /* AppDelegate.swift */; };
-		1772A2DF2486B604002C30A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772A2DE2486B604002C30A7 /* SceneDelegate.swift */; };
 		1772A2E12486B604002C30A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772A2E02486B604002C30A7 /* ViewController.swift */; };
 		1772A2E42486B604002C30A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1772A2E22486B604002C30A7 /* Main.storyboard */; };
 		1772A2E62486B606002C30A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1772A2E52486B606002C30A7 /* Assets.xcassets */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		1772A2D92486B603002C30A7 /* DotaLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1772A2DC2486B604002C30A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1772A2DE2486B604002C30A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1772A2E02486B604002C30A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1772A2E32486B604002C30A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1772A2E52486B606002C30A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				1772A2DC2486B604002C30A7 /* AppDelegate.swift */,
-				1772A2DE2486B604002C30A7 /* SceneDelegate.swift */,
 				1772A2F02486B6D5002C30A7 /* Dota */,
 				1772A2E02486B604002C30A7 /* ViewController.swift */,
 				1772A2E22486B604002C30A7 /* Main.storyboard */,
@@ -252,7 +249,6 @@
 				1772A2FA2486B6F3002C30A7 /* DotaViewController.swift in Sources */,
 				1772A2F82486B6F3002C30A7 /* DotaPresenter.swift in Sources */,
 				1772A2F92486B6F3002C30A7 /* DotaRouter.swift in Sources */,
-				1772A2DF2486B604002C30A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
