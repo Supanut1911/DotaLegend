@@ -12,10 +12,15 @@ protocol DotaPresenterInterface: class {
     var view: DotaViewInterface? { get set }
     var interactor: DotaInteractorInterface? { get set }
     var router: DotaRouterInterface? { get set }
+    var heroResponse: HeroModel? {get set}
+    
+    func setHero()
 }
 
 protocol DotaViewInterface: class {
     var presenter: DotaPresenterInterface? { get set }
+    
+    func heroResult()
 }
 
 protocol DotaRouterInterface: class {
@@ -25,7 +30,9 @@ protocol DotaRouterInterface: class {
 
 protocol DotaInteractorInterface: class {
     var presenter: DotaInteractorDelegate? { get set }
+    func fetchHeroAPI()
 }
 
 protocol DotaInteractorDelegate: class {
+    func handleResponseData(data: HeroModel) 
 }

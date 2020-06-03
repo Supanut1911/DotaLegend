@@ -9,10 +9,24 @@
 import Foundation
 
 class DotaPresenter: DotaPresenterInterface {
+
     weak var view: DotaViewInterface?
     var interactor: DotaInteractorInterface?
     var router: DotaRouterInterface?
+    var heroResponse: HeroModel?
+    
+    
+    
+    func setHero() {
+        self.interactor?.fetchHeroAPI()
+    }
+    
+    
 }
 
 extension DotaPresenter: DotaInteractorDelegate {
+    func handleResponseData(data: HeroModel) {
+        heroResponse = data
+        view?.heroResult()
+    }
 }
